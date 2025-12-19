@@ -39,8 +39,8 @@ This can be use by importing "os" module in .py file.
 
 We need set environment variable in our os first then call them in py file.
 
-root@fgegovdbsrv:~/python# export password="pythonsandeep"
-root@fgegovdbsrv:~/python# env | grep password
+root@:~/python# export password="pythonsandeep"
+root@:~/python# env | grep password
 password=pythonsandeep
 
 
@@ -52,3 +52,4 @@ print(os.getenv("password"))
 RESULT:python environmentVAR.py
 --------------------------------
 pythonsandeep
+
